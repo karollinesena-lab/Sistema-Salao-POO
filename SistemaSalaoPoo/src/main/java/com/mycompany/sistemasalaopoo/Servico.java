@@ -6,8 +6,27 @@ package com.mycompany.sistemasalaopoo;
 
 /**
  *
- * @author Karolline Sena
+ * @author Lara Paiva
  */
+/* Classe de modelo para representar um Servico oferecido pelo salao.
+ */
+
 public class Servico {
-    
+    private final String nome;
+    private final double preco;
+    private final  int duracaoEmMinutos;
+
+    public Servico(String nome, double preco, int duracaoEmMinutos) {
+        this.nome = nome;
+        this.preco = preco;
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+}
 }
