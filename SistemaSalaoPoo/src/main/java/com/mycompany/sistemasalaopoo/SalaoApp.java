@@ -4,13 +4,9 @@
 
 package com.mycompany.sistemasalaopoo;
 
-import java.time.LocalDateTime;
-import java.time.Month;
-
 /**
  *
  * @author Karolline Sena
- * 
  */
 public class SalaoApp {
 
